@@ -1,0 +1,42 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '13.0'
+
+def widgets_pods
+  pod 'Kingfisher', '~> 6.1.0'
+  pod 'ESPullToRefresh', '~> 2.9.3'
+  pod 'BetterSegmentedControl', :git => 'https://github.com/gmarm/BetterSegmentedControl.git', :tag => '2.0.1'
+  pod 'SwiftMessages', '~> 9.0.0'
+  pod 'Material', '~> 3.1.8'
+  pod 'ActiveLabel', :git => 'https://github.com/optonaut/ActiveLabel.swift.git', :tag => '1.1.5'
+  pod 'Toast-Swift', '~> 5.0.1'
+  pod 'SkyFloatingLabelTextField', '~> 4.0.0'
+  pod 'Toast-Swift', '~> 5.0.1'
+  pod 'BulletinBoard', '~> 4.1.2'
+  pod 'ViewAnimator', '~> 3.0.1'
+end
+
+def tools_pods
+  pod 'SnapKit', '~> 5.0.1'
+  pod 'SwiftyJSON', '~> 5.0.0'
+  pod 'ObjectMapper', '~> 4.2.0'
+  pod 'IQKeyboardManagerSwift', '~> 6.5.6'
+  pod 'SwifterSwift', '~> 5.2.0'
+  pod 'SwiftyUserDefaults', '~> 5.1.0'
+  pod 'Hue', '~> 5.0.0'
+  pod 'SwiftDate', '~> 6.3.1'
+  pod 'CryptoSwift', '~> 1.3.8'
+  pod 'CocoaLumberjack/Swift', '~> 3.7.0'
+  pod 'Then', '~> 2.7.0'
+  pod 'R.swift', '~> 5.3.1'
+end
+
+target 'BREDR' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  # Pods for BREDR
+  widgets_pods
+  tools_pods
+
+end

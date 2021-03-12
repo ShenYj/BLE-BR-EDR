@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63697E6C5339978B97C9FEF7 /* Pods_BREDR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8E6B54C2188350A0DEC46E /* Pods_BREDR.framework */; };
+		F779A3BA25FAF10E00E078F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779A3B925FAF10E00E078F1 /* AppDelegate.swift */; };
+		F779A3BC25FAF10E00E078F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779A3BB25FAF10E00E078F1 /* SceneDelegate.swift */; };
+		F779A3BE25FAF10E00E078F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779A3BD25FAF10E00E078F1 /* ViewController.swift */; };
+		F779A3C125FAF10E00E078F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F779A3BF25FAF10E00E078F1 /* Main.storyboard */; };
+		F779A3C325FAF10F00E078F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F779A3C225FAF10F00E078F1 /* Assets.xcassets */; };
+		F779A3C625FAF10F00E078F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F779A3C425FAF10F00E078F1 /* LaunchScreen.storyboard */; };
+		F779A3D025FAF13200E078F1 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779A3CF25FAF13200E078F1 /* BLEManager.swift */; };
+		F779A3D525FAFBBD00E078F1 /* CBManagerState+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779A3D425FAFBBD00E078F1 /* CBManagerState+Ex.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5090C5FA647CD1BB68A820FF /* Pods-BREDR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BREDR.release.xcconfig"; path = "Target Support Files/Pods-BREDR/Pods-BREDR.release.xcconfig"; sourceTree = "<group>"; };
+		7BB24C51FA50A4797153CFBF /* Pods-BREDR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BREDR.debug.xcconfig"; path = "Target Support Files/Pods-BREDR/Pods-BREDR.debug.xcconfig"; sourceTree = "<group>"; };
+		9D8E6B54C2188350A0DEC46E /* Pods_BREDR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BREDR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F779A3B625FAF10E00E078F1 /* BREDR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BREDR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F779A3B925FAF10E00E078F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F779A3BB25FAF10E00E078F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F779A3BD25FAF10E00E078F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F779A3C025FAF10E00E078F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F779A3C225FAF10F00E078F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F779A3C525FAF10F00E078F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F779A3C725FAF10F00E078F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F779A3CF25FAF13200E078F1 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		F779A3D425FAFBBD00E078F1 /* CBManagerState+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CBManagerState+Ex.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F779A3B325FAF10E00E078F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63697E6C5339978B97C9FEF7 /* Pods_BREDR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22BD1186CFC5753D97EE7320 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BB24C51FA50A4797153CFBF /* Pods-BREDR.debug.xcconfig */,
+				5090C5FA647CD1BB68A820FF /* Pods-BREDR.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		50DF9EED456A85476640C177 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D8E6B54C2188350A0DEC46E /* Pods_BREDR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F779A3AD25FAF10E00E078F1 = {
+			isa = PBXGroup;
+			children = (
+				F779A3B825FAF10E00E078F1 /* BREDR */,
+				F779A3B725FAF10E00E078F1 /* Products */,
+				22BD1186CFC5753D97EE7320 /* Pods */,
+				50DF9EED456A85476640C177 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F779A3B725FAF10E00E078F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F779A3B625FAF10E00E078F1 /* BREDR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F779A3B825FAF10E00E078F1 /* BREDR */ = {
+			isa = PBXGroup;
+			children = (
+				F779A3CE25FAF11700E078F1 /* BLE */,
+				F779A3B925FAF10E00E078F1 /* AppDelegate.swift */,
+				F779A3BB25FAF10E00E078F1 /* SceneDelegate.swift */,
+				F779A3BD25FAF10E00E078F1 /* ViewController.swift */,
+				F779A3BF25FAF10E00E078F1 /* Main.storyboard */,
+				F779A3C225FAF10F00E078F1 /* Assets.xcassets */,
+				F779A3C425FAF10F00E078F1 /* LaunchScreen.storyboard */,
+				F779A3C725FAF10F00E078F1 /* Info.plist */,
+			);
+			path = BREDR;
+			sourceTree = "<group>";
+		};
+		F779A3CE25FAF11700E078F1 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				F779A3D325FAFBB400E078F1 /* Ex */,
+				F779A3CF25FAF13200E078F1 /* BLEManager.swift */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		F779A3D325FAFBB400E078F1 /* Ex */ = {
+			isa = PBXGroup;
+			children = (
+				F779A3D425FAFBBD00E078F1 /* CBManagerState+Ex.swift */,
+			);
+			path = Ex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F779A3B525FAF10E00E078F1 /* BREDR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F779A3CA25FAF10F00E078F1 /* Build configuration list for PBXNativeTarget "BREDR" */;
+			buildPhases = (
+				A048A62D5324860BF23205D9 /* [CP] Check Pods Manifest.lock */,
+				F779A3B225FAF10E00E078F1 /* Sources */,
+				F779A3B325FAF10E00E078F1 /* Frameworks */,
+				F779A3B425FAF10E00E078F1 /* Resources */,
+				1641C313CB72B4230BBADB45 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BREDR;
+			productName = BREDR;
+			productReference = F779A3B625FAF10E00E078F1 /* BREDR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F779A3AE25FAF10E00E078F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F779A3B525FAF10E00E078F1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F779A3B125FAF10E00E078F1 /* Build configuration list for PBXProject "BREDR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F779A3AD25FAF10E00E078F1;
+			productRefGroup = F779A3B725FAF10E00E078F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F779A3B525FAF10E00E078F1 /* BREDR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F779A3B425FAF10E00E078F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F779A3C625FAF10F00E078F1 /* LaunchScreen.storyboard in Resources */,
+				F779A3C325FAF10F00E078F1 /* Assets.xcassets in Resources */,
+				F779A3C125FAF10E00E078F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1641C313CB72B4230BBADB45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BREDR/Pods-BREDR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BREDR/Pods-BREDR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BREDR/Pods-BREDR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A048A62D5324860BF23205D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BREDR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F779A3B225FAF10E00E078F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F779A3D525FAFBBD00E078F1 /* CBManagerState+Ex.swift in Sources */,
+				F779A3BE25FAF10E00E078F1 /* ViewController.swift in Sources */,
+				F779A3D025FAF13200E078F1 /* BLEManager.swift in Sources */,
+				F779A3BA25FAF10E00E078F1 /* AppDelegate.swift in Sources */,
+				F779A3BC25FAF10E00E078F1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F779A3BF25FAF10E00E078F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F779A3C025FAF10E00E078F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F779A3C425FAF10F00E078F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F779A3C525FAF10F00E078F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F779A3C825FAF10F00E078F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F779A3C925FAF10F00E078F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F779A3CB25FAF10F00E078F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB24C51FA50A4797153CFBF /* Pods-BREDR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				INFOPLIST_FILE = BREDR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.ble.bredr.BREDR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F779A3CC25FAF10F00E078F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5090C5FA647CD1BB68A820FF /* Pods-BREDR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				INFOPLIST_FILE = BREDR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.ble.bredr.BREDR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F779A3B125FAF10E00E078F1 /* Build configuration list for PBXProject "BREDR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F779A3C825FAF10F00E078F1 /* Debug */,
+				F779A3C925FAF10F00E078F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F779A3CA25FAF10F00E078F1 /* Build configuration list for PBXNativeTarget "BREDR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F779A3CB25FAF10F00E078F1 /* Debug */,
+				F779A3CC25FAF10F00E078F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F779A3AE25FAF10E00E078F1 /* Project object */;
+}
